@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>GameOfLife-Engine</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Conway's-GameOfLife-Engine</h1>
+    </header>
+    
+    <div id="content" class="container">
+        <div>
+        <button class="btn btn-primary" id="play">Play</button>
+        
+        <button class="btn btn-primary" id="stop">Stop</button>
+        <button class="btn btn-primary" id="reset">Reset</button>
+        <label class="content-right">Generation: </label> <label class="content-right" id="generation">0</label>
+        </div>
+
+
+        <div class="span8 main" id="game-div">            
+            <script src="js/utils.js"></script>
+            <script src="js/start.js"></script>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+<div class="game-div">
+    <title>Game Example</title>
+    <script src="js/game.js.example.js"></script>
+    <div>
+        <span id="score">0</span>
+    </div>
+    <button onclick="Game.postScore()">Incrementar Puntaje y Enviar al servidor</button>
+</div>
+
+-->
+
